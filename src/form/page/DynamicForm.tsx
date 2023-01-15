@@ -48,7 +48,7 @@ export const DynamicForm = () => {
                     console.log(values)
                 }}
             >
-                { (formik) => (
+                { (formit) => (
                     <Form noValidate>
                         { formJson.map( ({ type, name, placeholder, label, options }) => {
 
